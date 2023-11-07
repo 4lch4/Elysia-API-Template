@@ -2,9 +2,10 @@ import { Elysia } from 'elysia'
 import { getConfig } from './lib'
 import { swagger } from '@elysiajs/swagger'
 import { readPackageJSON } from '@4lch4/backpack/utils'
-import { HealthCheckRoutes, printRoutes } from '@4lch4/backpack/elysia'
+import { printRoutes } from '@4lch4/backpack/elysia'
 import { join, dirname } from 'path'
 import { fileURLToPath } from 'url'
+import { HealthCheckRoutes } from './routes'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const packageJson = await readPackageJSON(join(__dirname, '..', 'package.json'))
