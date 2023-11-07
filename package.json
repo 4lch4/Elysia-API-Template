@@ -1,6 +1,6 @@
 {
   "name": "elysia-api-template",
-  "displayName": "Elysia API template",
+  "displayName": "Elysia API Template",
   "version": "0.0.0",
   "description": "A template for creating a new API with the Elysia framework.",
   "keywords": ["4lch4"],

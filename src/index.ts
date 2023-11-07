@@ -28,7 +28,7 @@ export const app = new Elysia({ prefix: config.apiPrefix })
         },
         servers: [
           {
-            url: 'http://localhost:4242/api/v1',
+            url: `http://localhost:${config.apiPort}`,
             description: 'Localhost',
           },
         ],
