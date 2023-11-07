@@ -20,10 +20,9 @@
     "removeComments": false,
 
     "baseUrl": "./src",
-    // "paths": {
-    // 	"@interfaces/*": ["interfaces/*"],
-    // },
-
+    "paths": {
+      "~/*": ["*"]
+    },
 
     "skipLibCheck": true,
     "jsx": "react-jsx",
@@ -44,6 +43,6 @@
     "allowSyntheticDefaultImports": true,
 
     "forceConsistentCasingInFileNames": true,
-    "pretty": true,
+    "pretty": true
   }
 }
